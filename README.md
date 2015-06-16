@@ -1,7 +1,7 @@
 Brubeck Dockerfile
 ==================
 
-Source: https://github.com/github/brubeck
+Source: [https://github.com/github/brubeck](https://github.com/github/brubeck)
 
 Run with the following command in the directory where your `config.json` resides:
 
