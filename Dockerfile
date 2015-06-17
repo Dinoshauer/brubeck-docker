@@ -11,7 +11,7 @@ RUN cd brubeck && \
     mv brubeck /usr/share/brubeck && \
     ln -s /usr/share/brubeck /usr/bin/brubeck
 
-EXPOSE 8125 9126 8080
+EXPOSE 8126 9126 8080
 
 ENTRYPOINT ["brubeck"]
 CMD ["--config=/etc/brubeck/config.json"]

@@ -10,5 +10,5 @@ Run with the following command in the directory where your `config.json` resides
 Default exposed ports are (as in the [source example config](https://github.com/github/brubeck/blob/master/config.default.json.example)):
 
 * 8080 (http)
-* 8125 (statsd)
+* 8126 (statsd)
 * 9126 (secure statsd)
