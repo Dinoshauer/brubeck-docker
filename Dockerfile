@@ -9,7 +9,8 @@ RUN git clone https://github.com/github/brubeck.git
 RUN cd brubeck && \
     ./script/bootstrap && \
     mv brubeck /usr/share/brubeck && \
-    ln -s /usr/share/brubeck /usr/bin/brubeck
+    ln -s /usr/share/brubeck /usr/bin/brubeck && \
+    rm -rf /brubeck
 
 EXPOSE 8126 9126 8080
 
